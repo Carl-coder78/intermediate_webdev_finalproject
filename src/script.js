@@ -5,7 +5,7 @@ const calculateSimpleInterest = (principal, rate, time) => {
   
   // Función para calcular el monto total a pagar (actualmente restando en lugar de sumar)
   const calculateTotalPayableAmount = (principal, interestAmount) => {
-    return principal - interestAmount; // Aquí está el error deliberado
+    return principal + interestAmount; // Aquí está el error deliberado
   }
   
   // Función calculate que usa las funciones anteriores
